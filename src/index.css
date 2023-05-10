@@ -27,3 +27,7 @@ h5,
 h6 {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+a {
+  text-decoration: none;
+}

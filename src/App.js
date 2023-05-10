@@ -8,35 +8,39 @@ export default function App() {
           <nav className={styles.outercontainer}>
             <div className={styles.innercontainer}>
               <div className={styles.navigationBar}>
-                <div>
-                  <a href="#/">bird logo</a>
+                <div className={styles.leftPartNavigationBar}>
+                  <div>
+                    <a href="#/">bird logo</a>
+                  </div>
+                  <div>
+                    <a href="#/">Landingfolio</a>
+                  </div>
+                  <ul>
+                    <li>
+                      <a href="/#">Inspiration</a>
+                    </li>
+                    <li>
+                      <a href="/#">Component Library</a>
+                    </li>
+                    <li>
+                      <a href="/#">Templates</a>
+                    </li>
+                    <li>
+                      <a href="/#">Learn</a>
+                    </li>
+                    <li>
+                      <a href="/#">Tools</a>
+                    </li>
+                    <li>
+                      <a href="/#">Pricing</a>
+                    </li>
+                  </ul>
                 </div>
                 <div>
-                  <a href="#/">Landingfolio</a>
-                </div>
-                <ul>
-                  <li>
-                    <a href="/#">Inspiration</a>
-                  </li>
-                  <li>
-                    <a href="/#">Component Library</a>
-                  </li>
-                  <li>
-                    <a href="/#">Templates</a>
-                  </li>
-                  <li>
-                    <a href="/#">Learn</a>
-                  </li>
-                  <li>
-                    <a href="/#">Tools</a>
-                  </li>
-                  <li>
-                    <a href="/#">Pricing</a>
-                  </li>
-                </ul>
-                <div>
-                  <span>opens chatbot</span>
-                  <span>burger menue opens dropdown</span>
+                  <div className={styles.rightPartNavigationBar}>
+                    <span>opens chatbot</span>
+                    <span>burger menue opens dropdown</span>
+                  </div>
                 </div>
               </div>
             </div>
